@@ -1,0 +1,1729 @@
+INFO 23:16:27 :: Scraping Helium
+DEBUG 23:16:27 :: POST http://127.0.0.1:62946/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG 23:16:27 :: Starting new HTTP connection (1): 127.0.0.1:62946
+DEBUG 23:16:28 :: http://127.0.0.1:62946 "POST /session HTTP/1.1" 200 791
+DEBUG 23:16:28 :: Finished Request
+DEBUG 23:16:28 :: POST http://127.0.0.1:62946/session/8662c5af496fa81f7d81221b36da049c/url {"url": "https://ffa.health.ge.com/#/rfs"}
+DEBUG 23:16:37 :: http://127.0.0.1:62946 "POST /session/8662c5af496fa81f7d81221b36da049c/url HTTP/1.1" 200 14
+DEBUG 23:16:37 :: Finished Request
+DEBUG 23:16:37 :: POST http://127.0.0.1:51848/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG 23:16:37 :: Starting new HTTP connection (1): 127.0.0.1:51848
+DEBUG 23:16:38 :: http://127.0.0.1:51848 "POST /session HTTP/1.1" 200 789
+DEBUG 23:16:38 :: Finished Request
+DEBUG 23:16:38 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/rfs"}
+DEBUG 23:16:46 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:16:46 :: Finished Request
+CRITICAL 23:16:46 :: Starting scraper for Sep_04_2021
+CRITICAL 23:16:46 :: Opened website
+DEBUG 23:16:46 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"identifierInput\"]"}
+DEBUG 23:16:46 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:16:46 :: Finished Request
+DEBUG 23:16:46 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/cec15b21-3267-4e5b-8e88-a532651a005d/value {"text": "305009040", "value": ["3", "0", "5", "0", "0", "9", "0", "4", "0"], "id": "cec15b21-3267-4e5b-8e88-a532651a005d"}
+DEBUG 23:16:46 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/cec15b21-3267-4e5b-8e88-a532651a005d/value HTTP/1.1" 200 14
+DEBUG 23:16:46 :: Finished Request
+CRITICAL 23:16:46 :: Successfully sent username, moving on
+DEBUG 23:16:46 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"button\"]"}
+DEBUG 23:16:46 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:16:46 :: Finished Request
+DEBUG 23:16:46 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/aae7f798-a89a-4bef-9610-3edb27908e2e/click {"id": "aae7f798-a89a-4bef-9610-3edb27908e2e"}
+DEBUG 23:16:51 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/aae7f798-a89a-4bef-9610-3edb27908e2e/click HTTP/1.1" 200 14
+DEBUG 23:16:51 :: Finished Request
+CRITICAL 23:16:51 :: Entering a2
+DEBUG 23:16:51 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"password\"]"}
+DEBUG 23:16:51 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:16:51 :: Finished Request
+DEBUG 23:16:51 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/80c9469d-1015-49c7-bb2c-db979d3537c2/clear {"id": "80c9469d-1015-49c7-bb2c-db979d3537c2"}
+DEBUG 23:16:51 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/80c9469d-1015-49c7-bb2c-db979d3537c2/clear HTTP/1.1" 200 14
+DEBUG 23:16:51 :: Finished Request
+DEBUG 23:16:51 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/80c9469d-1015-49c7-bb2c-db979d3537c2/value {"text": "chachapuri55m", "value": ["c", "h", "a", "c", "h", "a", "p", "u", "r", "i", "5", "5", "m"], "id": "80c9469d-1015-49c7-bb2c-db979d3537c2"}
+DEBUG 23:16:51 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/80c9469d-1015-49c7-bb2c-db979d3537c2/value HTTP/1.1" 200 14
+DEBUG 23:16:51 :: Finished Request
+CRITICAL 23:16:51 :: Successfully sent password, moving on
+DEBUG 23:16:51 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"button\"]"}
+DEBUG 23:16:51 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:16:51 :: Finished Request
+DEBUG 23:16:51 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1a2212d1-0eea-4912-bb4e-09599408a88f/click {"id": "1a2212d1-0eea-4912-bb4e-09599408a88f"}
+DEBUG 23:16:54 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/1a2212d1-0eea-4912-bb4e-09599408a88f/click HTTP/1.1" 200 14
+DEBUG 23:16:54 :: Finished Request
+DEBUG 23:16:54 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:16:54 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:16:54 :: Finished Request
+DEBUG 23:16:54 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:16:54 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:16:54 :: Finished Request
+DEBUG 23:16:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:16:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:16:55 :: Finished Request
+DEBUG 23:16:56 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:16:56 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:16:56 :: Finished Request
+DEBUG 23:16:57 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:16:57 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:16:58 :: Finished Request
+DEBUG 23:16:59 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:16:59 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:16:59 :: Finished Request
+DEBUG 23:17:00 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:00 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:17:00 :: Finished Request
+DEBUG 23:17:01 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:01 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:17:01 :: Finished Request
+DEBUG 23:17:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:17:02 :: Finished Request
+DEBUG 23:17:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:17:03 :: Finished Request
+DEBUG 23:17:04 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:04 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 61
+DEBUG 23:17:04 :: Finished Request
+DEBUG 23:17:05 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:05 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 175
+DEBUG 23:17:05 :: Finished Request
+DEBUG 23:17:06 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:15 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 38
+DEBUG 23:17:15 :: Finished Request
+DEBUG 23:17:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 47
+DEBUG 23:17:16 :: Finished Request
+DEBUG 23:17:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {}
+DEBUG 23:17:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 47
+DEBUG 23:17:16 :: Finished Request
+DEBUG 23:17:21 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:17:21 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:17:21 :: Finished Request
+CRITICAL 23:17:21 :: Commencing Function!
+DEBUG 23:17:21 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:17:22 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:17:22 :: Finished Request
+CRITICAL 23:17:22 :: Entering System ID input step, a4
+DEBUG 23:17:22 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:23 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1014
+DEBUG 23:17:23 :: Finished Request
+CRITICAL 23:17:23 :: In a4, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ID_HP_SystemID_InputBox"]"}
+  (Session info: chrome=93.0.4577.63)
+  for sytem_id 0830276034058MM3, sleeping for 1 second
+DEBUG 23:17:24 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:24 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:24 :: Finished Request
+DEBUG 23:17:24 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c994b373-67fd-486d-afdf-ed07ef586191/clear {"id": "c994b373-67fd-486d-afdf-ed07ef586191"}
+DEBUG 23:17:24 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c994b373-67fd-486d-afdf-ed07ef586191/clear HTTP/1.1" 200 14
+DEBUG 23:17:24 :: Finished Request
+DEBUG 23:17:24 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c994b373-67fd-486d-afdf-ed07ef586191/value {"text": "0830276034058MM3", "value": ["0", "8", "3", "0", "2", "7", "6", "0", "3", "4", "0", "5", "8", "M", "M", "3"], "id": "c994b373-67fd-486d-afdf-ed07ef586191"}
+DEBUG 23:17:24 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c994b373-67fd-486d-afdf-ed07ef586191/value HTTP/1.1" 200 14
+DEBUG 23:17:24 :: Finished Request
+DEBUG 23:17:24 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:17:24 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:24 :: Finished Request
+DEBUG 23:17:24 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/e571b0f2-19a9-43e2-9eae-1750afbbe264/click {"id": "e571b0f2-19a9-43e2-9eae-1750afbbe264"}
+DEBUG 23:17:24 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/e571b0f2-19a9-43e2-9eae-1750afbbe264/click HTTP/1.1" 200 14
+DEBUG 23:17:24 :: Finished Request
+CRITICAL 23:17:24 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:17:24 :: Currently a5: 0
+DEBUG 23:17:24 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:24 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:24 :: Finished Request
+CRITICAL 23:17:24 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+CRITICAL 23:17:25 :: Currently a5: 1
+DEBUG 23:17:25 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:25 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:25 :: Finished Request
+CRITICAL 23:17:25 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+CRITICAL 23:17:26 :: Currently a5: 2
+DEBUG 23:17:26 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:26 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:26 :: Finished Request
+CRITICAL 23:17:26 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+CRITICAL 23:17:27 :: Currently a5: 3
+DEBUG 23:17:27 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:27 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:27 :: Finished Request
+DEBUG 23:17:27 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click {"id": "ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280"}
+DEBUG 23:17:27 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click HTTP/1.1" 200 14
+DEBUG 23:17:27 :: Finished Request
+DEBUG 23:17:27 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:27 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:17:27 :: Finished Request
+CRITICAL 23:17:27 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+CRITICAL 23:17:28 :: Currently a5: 4
+DEBUG 23:17:28 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:28 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:28 :: Finished Request
+DEBUG 23:17:28 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click {"id": "ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280"}
+DEBUG 23:17:28 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click HTTP/1.1" 200 14
+DEBUG 23:17:28 :: Finished Request
+DEBUG 23:17:28 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:28 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:17:28 :: Finished Request
+CRITICAL 23:17:28 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+CRITICAL 23:17:29 :: Currently a5: 5
+DEBUG 23:17:29 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:29 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:29 :: Finished Request
+DEBUG 23:17:29 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click {"id": "ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280"}
+DEBUG 23:17:29 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click HTTP/1.1" 200 14
+DEBUG 23:17:29 :: Finished Request
+DEBUG 23:17:29 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:29 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:17:29 :: Finished Request
+CRITICAL 23:17:29 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+DEBUG 23:17:29 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:29 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:29 :: Finished Request
+DEBUG 23:17:29 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click {"id": "ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280"}
+DEBUG 23:17:29 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click HTTP/1.1" 200 14
+DEBUG 23:17:29 :: Finished Request
+CRITICAL 23:17:29 :: In a5, and a5 is 5, clicking again on research
+CRITICAL 23:17:30 :: Currently a5: 6
+DEBUG 23:17:30 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click {"id": "ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/ca8a93f0-00a5-4fc2-8cf7-9e617cfd5280/click HTTP/1.1" 200 14
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/0aa793a9-a24c-46e5-89e2-324c66db5031/text {"id": "0aa793a9-a24c-46e5-89e2-324c66db5031"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/0aa793a9-a24c-46e5-89e2-324c66db5031/text HTTP/1.1" 200 13
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c2158615-9a70-42ad-b60e-08a8340d492e/text {"id": "c2158615-9a70-42ad-b60e-08a8340d492e"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c2158615-9a70-42ad-b60e-08a8340d492e/text HTTP/1.1" 200 17
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:30 :: Finished Request
+DEBUG 23:17:30 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/28fa4182-c356-42dd-b943-d1b85984ebdb/text {"id": "28fa4182-c356-42dd-b943-d1b85984ebdb"}
+DEBUG 23:17:30 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/28fa4182-c356-42dd-b943-d1b85984ebdb/text HTTP/1.1" 200 36
+DEBUG 23:17:30 :: Finished Request
+CRITICAL 23:17:32 :: In a5, no == 0, got pressure1.0 level: 61.74breaking
+CRITICAL 23:17:32 :: In a5, all good for sytem_id 0830276034058MM3, break
+CRITICAL 23:17:32 :: In a4, all good for sytem_id 0830276034058MM3, break
+DEBUG 23:17:32 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:17:35 :: Finished Request
+CRITICAL 23:17:35 :: Commencing Function!
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:17:35 :: Finished Request
+CRITICAL 23:17:35 :: Entering System ID input step, a4
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:35 :: Finished Request
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/2eaee8f8-0e24-4e21-8012-dd3f5c09fee9/clear {"id": "2eaee8f8-0e24-4e21-8012-dd3f5c09fee9"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/2eaee8f8-0e24-4e21-8012-dd3f5c09fee9/clear HTTP/1.1" 200 14
+DEBUG 23:17:35 :: Finished Request
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/2eaee8f8-0e24-4e21-8012-dd3f5c09fee9/value {"text": "0830271087868MM3", "value": ["0", "8", "3", "0", "2", "7", "1", "0", "8", "7", "8", "6", "8", "M", "M", "3"], "id": "2eaee8f8-0e24-4e21-8012-dd3f5c09fee9"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/2eaee8f8-0e24-4e21-8012-dd3f5c09fee9/value HTTP/1.1" 200 14
+DEBUG 23:17:35 :: Finished Request
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:35 :: Finished Request
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4bda1253-0289-4a79-92bf-42abe961fa53/click {"id": "4bda1253-0289-4a79-92bf-42abe961fa53"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4bda1253-0289-4a79-92bf-42abe961fa53/click HTTP/1.1" 200 14
+DEBUG 23:17:35 :: Finished Request
+CRITICAL 23:17:35 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:17:35 :: Currently a5: 0
+DEBUG 23:17:35 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:35 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:35 :: Finished Request
+CRITICAL 23:17:35 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830271087868MM3, sleeping for 1 second
+CRITICAL 23:17:36 :: Currently a5: 1
+DEBUG 23:17:36 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:37 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:37 :: Finished Request
+DEBUG 23:17:37 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:40 :: Finished Request
+DEBUG 23:17:40 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:40 :: Finished Request
+DEBUG 23:17:40 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/820aef76-6c63-4969-b3f7-da8120a75366/text {"id": "820aef76-6c63-4969-b3f7-da8120a75366"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/820aef76-6c63-4969-b3f7-da8120a75366/text HTTP/1.1" 200 16
+DEBUG 23:17:40 :: Finished Request
+DEBUG 23:17:40 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:40 :: Finished Request
+DEBUG 23:17:40 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/679209b3-b46c-4f5e-ac3d-16461bfcb8c8/text {"id": "679209b3-b46c-4f5e-ac3d-16461bfcb8c8"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/679209b3-b46c-4f5e-ac3d-16461bfcb8c8/text HTTP/1.1" 200 16
+DEBUG 23:17:40 :: Finished Request
+DEBUG 23:17:40 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:40 :: Finished Request
+DEBUG 23:17:40 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:40 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:40 :: Finished Request
+CRITICAL 23:17:40 :: Currently a5: 2
+DEBUG 23:17:40 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 3
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 4
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 5
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 6
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 7
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 8
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:41 :: Finished Request
+CRITICAL 23:17:41 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:41 :: Currently a5: 9
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click {"id": "bc0caff6-6432-4d00-83a1-80350a9422e7"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/bc0caff6-6432-4d00-83a1-80350a9422e7/click HTTP/1.1" 200 14
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:41 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:41 :: Finished Request
+DEBUG 23:17:41 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text {"id": "c93ba85d-e45f-4bf1-a3c2-db579b9b6346"}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/c93ba85d-e45f-4bf1-a3c2-db579b9b6346/text HTTP/1.1" 200 13
+DEBUG 23:17:42 :: Finished Request
+DEBUG 23:17:42 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:42 :: Finished Request
+DEBUG 23:17:42 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text {"id": "62b31bed-a62e-4dad-9138-6d338fc962d1"}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/62b31bed-a62e-4dad-9138-6d338fc962d1/text HTTP/1.1" 200 17
+DEBUG 23:17:42 :: Finished Request
+DEBUG 23:17:42 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:42 :: Finished Request
+DEBUG 23:17:42 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text {"id": "8e628f66-3b85-4081-a0f5-2724e269c81f"}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8e628f66-3b85-4081-a0f5-2724e269c81f/text HTTP/1.1" 200 36
+DEBUG 23:17:42 :: Finished Request
+CRITICAL 23:17:42 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:42 :: In a5, all good for sytem_id 0830271087868MM3, break
+CRITICAL 23:17:42 :: In a4, all good for sytem_id 0830271087868MM3, break
+DEBUG 23:17:42 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:17:42 :: Finished Request
+CRITICAL 23:17:42 :: Commencing Function!
+DEBUG 23:17:42 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:17:42 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:17:42 :: Finished Request
+CRITICAL 23:17:42 :: Entering System ID input step, a4
+DEBUG 23:17:42 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:43 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:43 :: Finished Request
+DEBUG 23:17:43 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/35dc4a6a-fd2f-4ed7-a044-b445eef04223/clear {"id": "35dc4a6a-fd2f-4ed7-a044-b445eef04223"}
+DEBUG 23:17:43 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/35dc4a6a-fd2f-4ed7-a044-b445eef04223/clear HTTP/1.1" 200 14
+DEBUG 23:17:43 :: Finished Request
+DEBUG 23:17:43 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/35dc4a6a-fd2f-4ed7-a044-b445eef04223/value {"text": "083027606283MM4", "value": ["0", "8", "3", "0", "2", "7", "6", "0", "6", "2", "8", "3", "M", "M", "4"], "id": "35dc4a6a-fd2f-4ed7-a044-b445eef04223"}
+DEBUG 23:17:43 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/35dc4a6a-fd2f-4ed7-a044-b445eef04223/value HTTP/1.1" 200 14
+DEBUG 23:17:43 :: Finished Request
+DEBUG 23:17:43 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:17:43 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:43 :: Finished Request
+DEBUG 23:17:43 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/b40b8d62-e62b-4f23-935b-d6e1d7aa74e6/click {"id": "b40b8d62-e62b-4f23-935b-d6e1d7aa74e6"}
+DEBUG 23:17:43 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/b40b8d62-e62b-4f23-935b-d6e1d7aa74e6/click HTTP/1.1" 200 14
+DEBUG 23:17:43 :: Finished Request
+CRITICAL 23:17:43 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:17:43 :: Currently a5: 0
+DEBUG 23:17:43 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:43 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:43 :: Finished Request
+CRITICAL 23:17:43 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083027606283MM4, sleeping for 1 second
+CRITICAL 23:17:44 :: Currently a5: 1
+DEBUG 23:17:44 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:44 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:44 :: Finished Request
+DEBUG 23:17:44 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:45 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:45 :: Finished Request
+DEBUG 23:17:45 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:46 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:17:46 :: Finished Request
+CRITICAL 23:17:46 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083027606283MM4, sleeping for 1 second
+CRITICAL 23:17:47 :: Currently a5: 2
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:47 :: Finished Request
+CRITICAL 23:17:47 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:47 :: Currently a5: 3
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:47 :: Finished Request
+CRITICAL 23:17:47 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:47 :: Currently a5: 4
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:47 :: Finished Request
+CRITICAL 23:17:47 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:47 :: Currently a5: 5
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:47 :: Finished Request
+CRITICAL 23:17:47 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:47 :: Currently a5: 6
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:47 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:47 :: Finished Request
+DEBUG 23:17:47 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:48 :: Finished Request
+CRITICAL 23:17:48 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:48 :: Currently a5: 7
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:48 :: Finished Request
+CRITICAL 23:17:48 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:48 :: Currently a5: 8
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:48 :: Finished Request
+CRITICAL 23:17:48 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:48 :: Currently a5: 9
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click {"id": "c3539625-ea01-4d14-9b14-e631b9c9948d"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/c3539625-ea01-4d14-9b14-e631b9c9948d/click HTTP/1.1" 200 14
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text {"id": "27ea2241-c5bd-4fd1-a03d-8829469caf03"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/27ea2241-c5bd-4fd1-a03d-8829469caf03/text HTTP/1.1" 200 13
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text {"id": "985c0ad8-0eee-40e4-bb8a-785e15305338"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/985c0ad8-0eee-40e4-bb8a-785e15305338/text HTTP/1.1" 200 17
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:48 :: Finished Request
+DEBUG 23:17:48 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text {"id": "51cb227e-7bca-4f57-8ad8-7bda25069219"}
+DEBUG 23:17:48 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/51cb227e-7bca-4f57-8ad8-7bda25069219/text HTTP/1.1" 200 36
+DEBUG 23:17:48 :: Finished Request
+CRITICAL 23:17:48 :: In a5, pressure for last item equal to current item, pass
+CRITICAL 23:17:48 :: In a5, all good for sytem_id 083027606283MM4, break
+CRITICAL 23:17:48 :: In a4, all good for sytem_id 083027606283MM4, break
+DEBUG 23:17:48 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:17:49 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:17:49 :: Finished Request
+CRITICAL 23:17:49 :: Commencing Function!
+DEBUG 23:17:49 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:17:49 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:17:49 :: Finished Request
+CRITICAL 23:17:49 :: Entering System ID input step, a4
+DEBUG 23:17:49 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:49 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1014
+DEBUG 23:17:49 :: Finished Request
+CRITICAL 23:17:49 :: In a4, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ID_HP_SystemID_InputBox"]"}
+  (Session info: chrome=93.0.4577.63)
+  for sytem_id 083028101447MM3, sleeping for 1 second
+DEBUG 23:17:50 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:50 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:50 :: Finished Request
+DEBUG 23:17:50 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/109ac16b-a582-461a-a351-44d8ebd61137/clear {"id": "109ac16b-a582-461a-a351-44d8ebd61137"}
+DEBUG 23:17:50 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/109ac16b-a582-461a-a351-44d8ebd61137/clear HTTP/1.1" 200 14
+DEBUG 23:17:50 :: Finished Request
+DEBUG 23:17:50 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/109ac16b-a582-461a-a351-44d8ebd61137/value {"text": "083028101447MM3", "value": ["0", "8", "3", "0", "2", "8", "1", "0", "1", "4", "4", "7", "M", "M", "3"], "id": "109ac16b-a582-461a-a351-44d8ebd61137"}
+DEBUG 23:17:50 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/109ac16b-a582-461a-a351-44d8ebd61137/value HTTP/1.1" 200 14
+DEBUG 23:17:50 :: Finished Request
+DEBUG 23:17:50 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:17:50 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:50 :: Finished Request
+DEBUG 23:17:50 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7d06256e-9547-471c-8bc4-71ca2c3d4b51/click {"id": "7d06256e-9547-471c-8bc4-71ca2c3d4b51"}
+DEBUG 23:17:50 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/7d06256e-9547-471c-8bc4-71ca2c3d4b51/click HTTP/1.1" 200 14
+DEBUG 23:17:50 :: Finished Request
+CRITICAL 23:17:50 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:17:50 :: Currently a5: 0
+DEBUG 23:17:50 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:50 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:50 :: Finished Request
+CRITICAL 23:17:50 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083028101447MM3, sleeping for 1 second
+CRITICAL 23:17:51 :: Currently a5: 1
+DEBUG 23:17:51 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:51 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:51 :: Finished Request
+CRITICAL 23:17:51 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083028101447MM3, sleeping for 1 second
+CRITICAL 23:17:52 :: Currently a5: 2
+DEBUG 23:17:52 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:53 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:53 :: Finished Request
+DEBUG 23:17:53 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:54 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:54 :: Finished Request
+DEBUG 23:17:54 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 3
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 4
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 5
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 6
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 7
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 8
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: Currently a5: 9
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click {"id": "9d3fd5b8-a221-4859-8b96-a07e46469162"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/9d3fd5b8-a221-4859-8b96-a07e46469162/click HTTP/1.1" 200 14
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text {"id": "7c36c387-94ef-49a9-9453-84a7527b4aa7"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/7c36c387-94ef-49a9-9453-84a7527b4aa7/text HTTP/1.1" 200 16
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text {"id": "d750cfb4-b4e8-48c5-9661-e0c7e2931b9f"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/d750cfb4-b4e8-48c5-9661-e0c7e2931b9f/text HTTP/1.1" 200 17
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:55 :: Finished Request
+DEBUG 23:17:55 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text {"id": "92864366-6517-4c35-9e41-f5aab83f6edb"}
+DEBUG 23:17:55 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/92864366-6517-4c35-9e41-f5aab83f6edb/text HTTP/1.1" 200 36
+DEBUG 23:17:55 :: Finished Request
+CRITICAL 23:17:55 :: In a5, all good for sytem_id 083028101447MM3, break
+CRITICAL 23:17:55 :: In a4, all good for sytem_id 083028101447MM3, break
+DEBUG 23:17:55 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:17:56 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:17:56 :: Finished Request
+CRITICAL 23:17:56 :: Commencing Function!
+DEBUG 23:17:56 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:17:56 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:17:56 :: Finished Request
+CRITICAL 23:17:56 :: Entering System ID input step, a4
+DEBUG 23:17:56 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:17:57 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:57 :: Finished Request
+DEBUG 23:17:57 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/008c64cf-7a41-4bfd-911f-a627801dae0c/clear {"id": "008c64cf-7a41-4bfd-911f-a627801dae0c"}
+DEBUG 23:17:57 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/008c64cf-7a41-4bfd-911f-a627801dae0c/clear HTTP/1.1" 200 14
+DEBUG 23:17:57 :: Finished Request
+DEBUG 23:17:57 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/008c64cf-7a41-4bfd-911f-a627801dae0c/value {"text": "083027102603MM4", "value": ["0", "8", "3", "0", "2", "7", "1", "0", "2", "6", "0", "3", "M", "M", "4"], "id": "008c64cf-7a41-4bfd-911f-a627801dae0c"}
+DEBUG 23:17:57 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/008c64cf-7a41-4bfd-911f-a627801dae0c/value HTTP/1.1" 200 14
+DEBUG 23:17:57 :: Finished Request
+DEBUG 23:17:57 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:17:57 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:57 :: Finished Request
+DEBUG 23:17:57 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/94023210-21e6-447e-a99f-bab9181cd373/click {"id": "94023210-21e6-447e-a99f-bab9181cd373"}
+DEBUG 23:17:57 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/94023210-21e6-447e-a99f-bab9181cd373/click HTTP/1.1" 200 14
+DEBUG 23:17:57 :: Finished Request
+CRITICAL 23:17:57 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:17:57 :: Currently a5: 0
+DEBUG 23:17:57 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:57 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:17:57 :: Finished Request
+CRITICAL 23:17:57 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083027102603MM4, sleeping for 1 second
+CRITICAL 23:17:58 :: Currently a5: 1
+DEBUG 23:17:58 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:17:58 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:17:58 :: Finished Request
+DEBUG 23:17:58 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:17:59 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:17:59 :: Finished Request
+DEBUG 23:17:59 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:17:59 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:17:59 :: Finished Request
+CRITICAL 23:17:59 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083027102603MM4, sleeping for 1 second
+CRITICAL 23:18:00 :: Currently a5: 2
+DEBUG 23:18:00 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:00 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:00 :: Finished Request
+DEBUG 23:18:00 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:01 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:01 :: Finished Request
+DEBUG 23:18:01 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:01 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:18:01 :: Finished Request
+CRITICAL 23:18:01 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083027102603MM4, sleeping for 1 second
+CRITICAL 23:18:02 :: Currently a5: 3
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:02 :: Finished Request
+CRITICAL 23:18:02 :: Currently a5: 4
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:02 :: Finished Request
+CRITICAL 23:18:02 :: Currently a5: 5
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:02 :: Finished Request
+CRITICAL 23:18:02 :: Currently a5: 6
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:02 :: Finished Request
+CRITICAL 23:18:02 :: Currently a5: 7
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:02 :: Finished Request
+CRITICAL 23:18:02 :: Currently a5: 8
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:02 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:02 :: Finished Request
+DEBUG 23:18:02 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:03 :: Finished Request
+CRITICAL 23:18:03 :: Currently a5: 9
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click {"id": "62c3416f-e1ec-4f9f-9a38-f61b17980418"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/62c3416f-e1ec-4f9f-9a38-f61b17980418/click HTTP/1.1" 200 14
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text {"id": "6ab3f029-9fa2-401b-b59d-4ab803eb3e08"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6ab3f029-9fa2-401b-b59d-4ab803eb3e08/text HTTP/1.1" 200 16
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text {"id": "1d0053ad-a53b-4157-a645-2e1ca240128a"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1d0053ad-a53b-4157-a645-2e1ca240128a/text HTTP/1.1" 200 17
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:03 :: Finished Request
+DEBUG 23:18:03 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text {"id": "240c37f5-2ba7-4a32-8edf-4ee8af5cac74"}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/240c37f5-2ba7-4a32-8edf-4ee8af5cac74/text HTTP/1.1" 200 36
+DEBUG 23:18:03 :: Finished Request
+CRITICAL 23:18:03 :: In a5, all good for sytem_id 083027102603MM4, break
+CRITICAL 23:18:03 :: In a4, all good for sytem_id 083027102603MM4, break
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:18:03 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:18:03 :: Finished Request
+CRITICAL 23:18:03 :: Commencing Function!
+DEBUG 23:18:03 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:18:04 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:18:04 :: Finished Request
+CRITICAL 23:18:04 :: Entering System ID input step, a4
+DEBUG 23:18:04 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:18:04 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1014
+DEBUG 23:18:04 :: Finished Request
+CRITICAL 23:18:04 :: In a4, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ID_HP_SystemID_InputBox"]"}
+  (Session info: chrome=93.0.4577.63)
+  for sytem_id 083028606711MM3, sleeping for 1 second
+DEBUG 23:18:05 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:18:05 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:05 :: Finished Request
+DEBUG 23:18:05 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/116382d5-e86f-40ef-a0bb-8ae4b2444e78/clear {"id": "116382d5-e86f-40ef-a0bb-8ae4b2444e78"}
+DEBUG 23:18:05 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/116382d5-e86f-40ef-a0bb-8ae4b2444e78/clear HTTP/1.1" 200 14
+DEBUG 23:18:05 :: Finished Request
+DEBUG 23:18:05 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/116382d5-e86f-40ef-a0bb-8ae4b2444e78/value {"text": "083028606711MM3", "value": ["0", "8", "3", "0", "2", "8", "6", "0", "6", "7", "1", "1", "M", "M", "3"], "id": "116382d5-e86f-40ef-a0bb-8ae4b2444e78"}
+DEBUG 23:18:05 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/116382d5-e86f-40ef-a0bb-8ae4b2444e78/value HTTP/1.1" 200 14
+DEBUG 23:18:05 :: Finished Request
+DEBUG 23:18:05 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:18:05 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:05 :: Finished Request
+DEBUG 23:18:05 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/0c1a203c-cdef-45c5-9e92-1c1c05335ddc/click {"id": "0c1a203c-cdef-45c5-9e92-1c1c05335ddc"}
+DEBUG 23:18:05 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/0c1a203c-cdef-45c5-9e92-1c1c05335ddc/click HTTP/1.1" 200 14
+DEBUG 23:18:05 :: Finished Request
+CRITICAL 23:18:05 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:18:05 :: Currently a5: 0
+DEBUG 23:18:05 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:05 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:18:05 :: Finished Request
+CRITICAL 23:18:05 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083028606711MM3, sleeping for 1 second
+CRITICAL 23:18:06 :: Currently a5: 1
+DEBUG 23:18:06 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:06 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:06 :: Finished Request
+DEBUG 23:18:06 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:07 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:07 :: Finished Request
+DEBUG 23:18:07 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:08 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:18:08 :: Finished Request
+CRITICAL 23:18:08 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083028606711MM3, sleeping for 1 second
+CRITICAL 23:18:09 :: Currently a5: 2
+DEBUG 23:18:09 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:09 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:09 :: Finished Request
+DEBUG 23:18:09 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:09 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:09 :: Finished Request
+DEBUG 23:18:09 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:09 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 1006
+DEBUG 23:18:09 :: Finished Request
+CRITICAL 23:18:09 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='A13ReportedDataId']"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 083028606711MM3, sleeping for 1 second
+CRITICAL 23:18:10 :: Currently a5: 3
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:10 :: Finished Request
+CRITICAL 23:18:10 :: Currently a5: 4
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:10 :: Finished Request
+CRITICAL 23:18:10 :: Currently a5: 5
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:10 :: Finished Request
+CRITICAL 23:18:10 :: Currently a5: 6
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:10 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:10 :: Finished Request
+DEBUG 23:18:10 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:11 :: Finished Request
+CRITICAL 23:18:11 :: Currently a5: 7
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:11 :: Finished Request
+CRITICAL 23:18:11 :: Currently a5: 8
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:11 :: Finished Request
+CRITICAL 23:18:11 :: Currently a5: 9
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click {"id": "4f98b222-b8ef-40f5-b374-93af43bd98c1"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/4f98b222-b8ef-40f5-b374-93af43bd98c1/click HTTP/1.1" 200 14
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text {"id": "6df4f63a-b6f5-4674-8819-c7cd2f5a6f14"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/6df4f63a-b6f5-4674-8819-c7cd2f5a6f14/text HTTP/1.1" 200 16
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text {"id": "dd06010a-aedc-4c1b-a705-c67e85794b6b"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/dd06010a-aedc-4c1b-a705-c67e85794b6b/text HTTP/1.1" 200 17
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:11 :: Finished Request
+DEBUG 23:18:11 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text {"id": "8334f4bb-f284-4936-9173-3e096067ac42"}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/8334f4bb-f284-4936-9173-3e096067ac42/text HTTP/1.1" 200 36
+DEBUG 23:18:11 :: Finished Request
+CRITICAL 23:18:11 :: In a5, all good for sytem_id 083028606711MM3, break
+CRITICAL 23:18:11 :: In a4, all good for sytem_id 083028606711MM3, break
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/refresh {}
+DEBUG 23:18:11 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/refresh HTTP/1.1" 200 14
+DEBUG 23:18:11 :: Finished Request
+CRITICAL 23:18:11 :: Commencing Function!
+DEBUG 23:18:11 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/url {"url": "https://ffa.health.ge.com/#/di/home"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/url HTTP/1.1" 200 14
+DEBUG 23:18:12 :: Finished Request
+CRITICAL 23:18:12 :: Entering System ID input step, a4
+DEBUG 23:18:12 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"ID_HP_SystemID_InputBox\"]"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:12 :: Finished Request
+DEBUG 23:18:12 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/46d09bc1-946f-4ee8-9995-d9e85a808e1e/clear {"id": "46d09bc1-946f-4ee8-9995-d9e85a808e1e"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/46d09bc1-946f-4ee8-9995-d9e85a808e1e/clear HTTP/1.1" 200 14
+DEBUG 23:18:12 :: Finished Request
+DEBUG 23:18:12 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/46d09bc1-946f-4ee8-9995-d9e85a808e1e/value {"text": "0830276034058MM3", "value": ["0", "8", "3", "0", "2", "7", "6", "0", "3", "4", "0", "5", "8", "M", "M", "3"], "id": "46d09bc1-946f-4ee8-9995-d9e85a808e1e"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/46d09bc1-946f-4ee8-9995-d9e85a808e1e/value HTTP/1.1" 200 14
+DEBUG 23:18:12 :: Finished Request
+DEBUG 23:18:12 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//*[@type=\"submit\"]"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:12 :: Finished Request
+DEBUG 23:18:12 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/e6c8696c-ed04-4c83-ba4c-d8cdb7a5889a/click {"id": "e6c8696c-ed04-4c83-ba4c-d8cdb7a5889a"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/e6c8696c-ed04-4c83-ba4c-d8cdb7a5889a/click HTTP/1.1" 200 14
+DEBUG 23:18:12 :: Finished Request
+CRITICAL 23:18:12 :: Entering Research tab finder/data scraper step, a5
+CRITICAL 23:18:12 :: Currently a5: 0
+DEBUG 23:18:12 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:12 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 404 999
+DEBUG 23:18:12 :: Finished Request
+CRITICAL 23:18:12 :: In a5, got except: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="RESEARCH"]"}
+  (Session info: chrome=93.0.4577.63)
+ for sytem_id 0830276034058MM3, sleeping for 1 second
+CRITICAL 23:18:13 :: Currently a5: 1
+DEBUG 23:18:13 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:14 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:14 :: Finished Request
+DEBUG 23:18:14 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:15 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:15 :: Finished Request
+DEBUG 23:18:15 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:16 :: Finished Request
+CRITICAL 23:18:16 :: Currently a5: 2
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:16 :: Finished Request
+CRITICAL 23:18:16 :: Currently a5: 3
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:16 :: Finished Request
+CRITICAL 23:18:16 :: Currently a5: 4
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:16 :: Finished Request
+DEBUG 23:18:16 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:16 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:16 :: Finished Request
+CRITICAL 23:18:16 :: Currently a5: 5
+DEBUG 23:18:16 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:17 :: Finished Request
+CRITICAL 23:18:17 :: Currently a5: 6
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:17 :: Finished Request
+CRITICAL 23:18:17 :: Currently a5: 7
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:17 :: Finished Request
+CRITICAL 23:18:17 :: Currently a5: 8
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:17 :: Finished Request
+CRITICAL 23:18:17 :: Currently a5: 9
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "css selector", "value": "[id=\"RESEARCH\"]"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click {"id": "43eae836-64d8-4ae0-a6b1-ff555ef9f2bb"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element/43eae836-64d8-4ae0-a6b1-ff555ef9f2bb/click HTTP/1.1" 200 14
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A13ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text {"id": "1cb379dc-b861-4818-a689-a248917c3496"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/1cb379dc-b861-4818-a689-a248917c3496/text HTTP/1.1" 200 13
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='A2ReportedDataId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text {"id": "3d468746-987e-4e87-80f0-1bb36b2b7201"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/3d468746-987e-4e87-80f0-1bb36b2b7201/text HTTP/1.1" 200 17
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: POST http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element {"using": "xpath", "value": "//span[@id='parametersLastUpdatedDateId']"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "POST /session/c2a9e3421988154d8b4a7009e798c4d8/element HTTP/1.1" 200 88
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:17 :: GET http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text {"id": "f78dbcda-7436-4d85-9a10-e6e8b25c7fb8"}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "GET /session/c2a9e3421988154d8b4a7009e798c4d8/element/f78dbcda-7436-4d85-9a10-e6e8b25c7fb8/text HTTP/1.1" 200 36
+DEBUG 23:18:17 :: Finished Request
+CRITICAL 23:18:17 :: In a5, all good for sytem_id 0830276034058MM3, break
+CRITICAL 23:18:17 :: In a4, all good for sytem_id 0830276034058MM3, break
+DEBUG 23:18:17 :: DELETE http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8 {}
+DEBUG 23:18:17 :: http://127.0.0.1:51848 "DELETE /session/c2a9e3421988154d8b4a7009e798c4d8 HTTP/1.1" 200 14
+DEBUG 23:18:17 :: Finished Request
+DEBUG 23:18:20 :: DELETE http://127.0.0.1:51848/session/c2a9e3421988154d8b4a7009e798c4d8 {}
+DEBUG 23:18:20 :: Resetting dropped connection: 127.0.0.1
+DEBUG 23:18:22 :: Incremented Retry for (url='/session/c2a9e3421988154d8b4a7009e798c4d8'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 23:18:22 :: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C6217828B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c2a9e3421988154d8b4a7009e798c4d8
+DEBUG 23:18:22 :: Starting new HTTP connection (2): 127.0.0.1:51848
+DEBUG 23:18:24 :: Incremented Retry for (url='/session/c2a9e3421988154d8b4a7009e798c4d8'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 23:18:24 :: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C621782BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c2a9e3421988154d8b4a7009e798c4d8
+DEBUG 23:18:24 :: Starting new HTTP connection (3): 127.0.0.1:51848
+DEBUG 23:18:26 :: Incremented Retry for (url='/session/c2a9e3421988154d8b4a7009e798c4d8'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 23:18:26 :: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C6217238E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c2a9e3421988154d8b4a7009e798c4d8
+DEBUG 23:18:26 :: Starting new HTTP connection (4): 127.0.0.1:51848
