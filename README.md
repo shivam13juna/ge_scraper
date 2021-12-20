@@ -6,3 +6,14 @@
 5. Now download this repo by clicking on `code` then `Download Zip`. Post downloading, unzip the folder and place the chromedriver in the same unzipped folder
 6. Setup is all done, now you've to set your username and password inside the code, open `scraper.py` using any text editor (notepad), and go to line 18 and 19, and set your username and password. 
 7. Also you've to setup the location of file where you'll store the scraped data, set that on line 21. Lastly, set location of log file, which is generated for debugging/checking code, on line 22
+
+
+FAQ: 
+
+1. Program crashes after starting
+    1. Check if chrome has updated, you will have to update chromedriver as well
+    2. Check if file paths are correctly set
+2. Some of the outputs are blank in the generated CSV
+    1. Make sure you've good internet connection
+
+Please generate an issue if you still have issues (click on issue tab on the top). Make sure you paste output from scraper.log for debugging. 
