@@ -1,6 +1,6 @@
 # Setup
 1. Download python from [python.org](https://www.python.org/downloads/)
-2. Now install relevant libraries, with the command `py -m pip install selenium numpy pandas jinja2 openpyxl`
+2. Now install relevant libraries, with the command `py -m pip install selenium numpy pandas jinja2 openpyxl`, paste them in command prompt (Press search and type CMD)
 3. Next, find out the version of google chrome you've installed by clicking on `3 dots` on top right of chrome, then `help`, then `About Google Chrome`. You should see something like `Version 96.0.4664.110 (Official Build) (x86_64)`
 4. Now download chromedriver from [chromedriver.chromium.org](https://chromedriver.chromium.org/) of the same version as Chrome you found in step 3. 
 5. Now download this repo by clicking on `code` then `Download Zip`. Post downloading, unzip the folder and place the chromedriver in the same unzipped folder
